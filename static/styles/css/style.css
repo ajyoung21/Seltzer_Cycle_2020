@@ -1,0 +1,532 @@
+
+
+
+
+
+
+
+
+ body {
+  color: black;
+  background-image: url("../../images/backgroundsky.gif");
+  margin: 0;
+  padding: 0;
+
+}
+
+main {
+  margin-left: 5rem;
+  padding: 1rem;
+}
+
+
+h4{
+  color: white;
+}
+
+p, li, button{
+  font-size: 150%
+}
+
+
+
+button{
+  background-color: rgb(40, 170, 250);
+  color:white;
+  opacity: 1;
+  text-shadow:-1px 1px 0px rgb(20, 118, 237),
+                                 -2px 2px 0px rgb(3, 152, 50),
+                                 -3px 3px 0px rgb(152, 3, 135) 
+}
+
+
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  
+ 
+@media only screen and (min-width: 600px) {
+
+  .carousel{
+    width:45%;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(1, 125, 150,1) 100%);
+ 
+  }
+  .navbar {
+    top: 0;
+    width: 5rem;
+    height: 100vh;
+  }
+
+  .navbar:hover {
+    width: 16rem;
+  }
+
+  .navbar:hover .link-text {
+    display: inline;
+  }
+
+  .navbar:hover .logo svg
+  {
+    margin-left: 11rem;
+  }
+
+  .navbar:hover .logo-text
+  {
+    left: 0px;
+  }
+}
+
+.dark {
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+}
+
+.light {
+  --text-primary: #1f1f1f;
+  --text-secondary: #000000;
+  --bg-primary: #ffffff;
+  --bg-secondary: #e4e4e4;
+}
+
+.solar {
+  --text-primary: #576e75;
+  --text-secondary: #35535c;
+  --bg-primary: #fdf6e3;
+  --bg-secondary: #f5e5b8;
+}
+
+a{
+  color: rgb(46, 191, 51)
+}
+
+.theme-icon {
+  display: none;
+}
+
+.dark #darkIcon {
+  display: block;
+}
+
+.light #lightIcon {
+  display: block;
+}
+
+.solar #solarIcon {
+  display: block;
+}
+
+  #Everything_Else{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  i{
+    color: #df49a6;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 300px;
+  }
+
+#EverythingElse{
+  margin: auto;
+}
+
+  .row h1{
+  
+    font-size: 120px;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    color: white;
+    margin: auto;  
+   
+    text-align: center;
+    display: inline;
+    position: relative;
+    z-index: 20;
+  }
+
+
+  
+  .row .col-md-9{
+    
+
+    border: 2px solid black
+  }
+
+  
+
+ 
+
+ 
+  #S {
+    border: 2px solid black;
+    background-color:rgb(20, 118, 237);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    color: white;
+    margin: auto;  
+    padding-left: .5%; 
+    padding-right: .5%;
+    text-align: center;
+    display: inline;
+    position: relative;
+    z-index: 20;
+   
+  }
+
+  #Sz{
+    background:rgb(20, 118, 237, .6);
+    
+  }
+
+  #SZZ{
+    background-color:rgb(20, 118, 237);
+    border: 2px solid black;
+    padding-right: 10%;
+    padding-left:3%;
+  }
+
+
+
+  #A {
+    border: 2px solid black;
+    background-color:rgb(3, 152, 50);
+    text-shadow: -2px 2px rgb(0, 0, 0);
+    color: white;
+    margin: auto;  
+    padding-left: .5%; 
+    padding-right: .5%;
+    text-align: center;
+    display: inline;
+  }
+
+ 
+
+#Az{
+  background:rgb(3, 152, 50, .6);
+}
+
+#AZZ{
+  background-color:rgb(3, 152, 50);
+  border: 2px solid black;
+  padding-right: 10%;
+  padding-left:3%;
+}
+  
+  #B {
+    border: 2px solid black;
+    background-color:rgb(152, 3, 135);
+    text-shadow: -2px 2px rgb(0, 0, 0);
+    color: white;
+    margin: auto;  
+    padding-left: .5%; 
+    padding-right: .5%;
+    text-align: center;
+    display: inline;
+  }
+
+  #Bz{
+    background: rgb(152, 3, 135, .6);
+  }
+
+  #BZZ{
+    background-color:rgb(152, 3, 135);
+    border: 2px solid black;
+    padding-right: 10%;
+    padding-left:3%;
+  }
+
+  #C {
+    border: 2px solid black;
+    background-color:rgb(220, 204, 29);
+    text-shadow: -2px 2px rgb(0, 0, 0);
+    color: white;
+    margin: auto;  
+    padding-left: .5%; 
+    padding-right: .5%;
+    text-align: center;
+    display: inline;
+   
+  }
+
+  #Cz{
+    background: rgb(220, 204, 29, .6);
+  }
+
+  #CZZ{
+    background-color:rgb(220, 204, 29);
+    border: 2px solid black;
+    padding-right: 10%;
+    padding-left:3%;
+  }
+
+  #D {
+    border: 2px solid black;
+    background-color:rgb(223, 104, 13);
+    text-shadow: -2px 2px rgb(0, 0, 0);
+    color: white;
+    margin: auto;  
+    padding-left: .5%; 
+    padding-right: .5%;
+    text-align: center;
+    display: inline;
+  }
+
+  #Dz{
+    background: rgb(223, 104, 13, .6);
+  }
+
+  #DZZ{
+    background-color:rgb(223, 104, 13);
+    border: 2px solid black;
+    padding-right: 10%;
+    padding-left:3%;
+  }
+
+  #E {
+    border: 2px solid black;
+    background-color:rgb(94, 70, 10);
+    text-shadow: -2px 2px rgb(0, 0, 0);
+    color: white;
+    margin: auto; 
+    padding-left: .5%; 
+    padding-right: .5%;
+    text-align: center;
+    display: inline;
+    position: relative;
+    z-index: 20;
+    
+  }
+
+  #Ez{
+    background: rgb(94, 70, 10, .6);
+  }
+  
+
+  #EZZ{
+    background-color:rgb(94, 70, 10);
+    border: 2px solid black;
+    padding-right: 10%;
+    padding-left:3%;
+  }
+
+  #F {
+    border: 2px solid black;
+    background-color:rgb(152, 3, 3);
+    text-shadow: -2px 2px rgb(0, 0, 0);
+    color: white;
+    margin: auto;  
+    padding-left: .5%; 
+    padding-right: .5%;
+    text-align: center;
+    display: inline;
+  }
+
+  #Fz{
+    background: rgb(152, 3, 3, .6);
+  }
+
+  #FZZ{
+    background-color: rgb(152, 3, 3);
+    border: 2px solid black;
+    padding-right: 10%;
+    padding-left:3%;
+  }
+  
+
+
+
+
+  #shadow{
+
+    text-shadow: 8px 8px rgb(0, 0, 0);
+
+  }
+
+
+
+
+ #carouselpic{
+  height:360px;
+  margin: auto;
+ 
+ }
+
+ .carousel-inner{
+   margin:auto;
+ }
+
+ 
+
+ .carousel-caption h3{
+   opacity: .95;
+   -webkit-text-stroke: 1px black;
+  font-size: 40px;
+  text-shadow: -2px 2px 0px #02b0b0,
+                 -4px 4px 0px #008a8a,
+                 -6px 6px 0px #006d6d;
+ }
+
+ .carousel-caption h2{
+
+  opacity: .92;
+  -webkit-text-stroke: 1px black;
+ 
+text-shadow: -2px 2px 0px #02b0b0,
+                 -4px 4px 0px #008a8a,
+                 -6px 6px 0px #006d6d;
+
+ }
+
+ .carousel-caption p{
+  text-shadow: -1px 1px 0px #1c1c1c,
+  -2px 2px 0px #181818,
+  -3px 3px 0px #040404;
+
+  padding-left: 20%;
+  padding-right: 20%;
+
+  color: rgb(245, 245, 245);
+
+  font-size: 20px;
+   
+  
+ }
+ 
+ .carousel-inner {
+   margin:auto
+ }
+
+
+  .carousel .image-container {
+    position: relative;
+    width: 360px;
+    height: 360px;
+}
+
+.row .image-container{
+  position: relative;
+    width: 240px;
+    height: 240px;
+
+
+}
+.image-container .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+.image-container:hover .after {
+    display: block;
+    
+}
+
+#vamp{
+  color: #ffffff;
+  height: 62px;
+  width: 25%;
+  font-size: 90px;
+
+  position: relative;
+  z-index: -1;
+
+  -webkit-text-stroke: 1px black;
+  text-shadow:-4px 4px 0px rgb(20, 118, 237),
+                 -8px 8px 0px rgb(3, 152, 50),
+                 -12px 12px 0px rgb(152, 3, 135) 
+                ;
+              
+              }
+  
+
+#inline{
+  font-size: 80%;
+  padding-bottom: 30px;
+}
+
+
+#vamp2{
+  font-size: 70px;
+                  color: #ffffff;
+                  opacity: .92;
+                  height: 80px;
+                  width: 85%;
+                  -webkit-text-stroke: 1px rgb(0, 0, 0);
+                  text-shadow:-2px 2px 0px rgb(20, 118, 237),
+                                 -4px 4px 0px rgb(3, 152, 50),
+                                 -6px 6px 0px rgb(152, 3, 135) }
+
+
+#vamp3{
+  font-size: 8%;
+  text-align: center;
+  text-shadow: 0 1px 2px #648ac4,
+  1px 3px 1px #5987c0, 
+  2px 5px 1px #4691b9, 
+  4px 7px 1px #3f71a6, 
+  6px 9px 1px #387494,
+  8px 11px 1px #315e81,
+  10px 13px 1px #2a406f,
+  12px 15px 1px #232e5c;
+
+
+}
+
+#vamp4{
+  font-size: 12%;
+  text-align: center;
+  text-shadow: -3px 3px 0 #41ba45,
+	3px 3px 0 #c63d2b,
+	3px -3px 0 #42afac,
+  -3px -3px 0 #0589d5,
+  -2px 4px 0 #41ba45,
+	4px 4px 0 #c63d2b,
+	4px -2px 0 #42afac,
+  -2px -2px 0 #0589d5,
+  -1px 5px 0 #41ba45,
+	5px 5px 0 #c63d2b,
+	5px -1px 0 #42afac,
+	-1px -1px 0 #0589d5;
+
+
+
+}
+
+
+#vamp5{
+  color: #ffffff;
+  
+  width: 25%;
+  font-size: 62px;
+
+  position: relative;
+  z-index: -1;
+
+  -webkit-text-stroke: 1px black;
+  text-shadow:-4px 4px 0px rgb(20, 118, 237),
+                 -8px 8px 0px rgb(3, 152, 50),
+                 -12px 12px 0px rgb(152, 3, 135) 
+                ;
+              
+              }
+
+
+
+#contact_page{
+  color: rgb(242, 238, 238)
+}
+
+#contact_page a{
+  color: rgb(31, 204, 216)
+}
